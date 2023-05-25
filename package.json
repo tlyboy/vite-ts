@@ -18,11 +18,11 @@
     "@iconify-json/carbon": "^1.1.16",
     "@iconify-json/file-icons": "^1.1.4",
     "@tsconfig/node18": "^2.0.1",
-    "@types/node": "^18.16.9",
+    "@types/node": "^18.16.14",
     "@unocss/eslint-config": "^0.52.3",
     "eslint": "^8.41.0",
     "typescript": "^5.0.4",
     "unocss": "^0.52.3",
-    "vite": "^4.3.5"
+    "vite": "^4.3.8"
   }
 }
