@@ -1,0 +1,28 @@
+{
+  "name": "vite-ts",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.52.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.3",
+    "@iconify-json/carbon": "^1.1.16",
+    "@iconify-json/file-icons": "^1.1.4",
+    "@tsconfig/node18": "^2.0.1",
+    "@types/node": "^18.16.9",
+    "@unocss/eslint-config": "^0.52.3",
+    "eslint": "^8.41.0",
+    "typescript": "^5.0.4",
+    "unocss": "^0.52.3",
+    "vite": "^4.3.5"
+  }
+}
