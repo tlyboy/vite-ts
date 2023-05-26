@@ -1,12 +1,5 @@
 html,
-body {
-  height: 100%;
-}
-
-body {
-  background-color: #ecf0f1;
-}
-
+body,
 #app {
   height: 100%;
 }

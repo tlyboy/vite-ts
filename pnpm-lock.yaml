@@ -15,6 +15,9 @@ devDependencies:
   '@iconify-json/file-icons':
     specifier: ^1.1.4
     version: 1.1.4
+  '@iconify-json/simple-icons':
+    specifier: ^1.1.54
+    version: 1.1.54
   '@tsconfig/node18':
     specifier: ^2.0.1
     version: 2.0.1
@@ -438,6 +441,12 @@ packages:
 
   /@iconify-json/file-icons@1.1.4:
     resolution: {integrity: sha512-+Swu7s8QwuAo2MGhyUntphWcAty5qLubwEECv8qhuV9LNH7nhNYR0FD8xWbZq8/2wjoaQf+fLKWR3467KrH9Mw==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/simple-icons@1.1.54:
+    resolution: {integrity: sha512-7g2yUYJgaYGLfGuO5j/XG1pu2c7p3svre1Nl2bLe68mPecit17EoCjDIJg2kK91Gfk3NwM4+U6P1QOfsFwlVkA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
