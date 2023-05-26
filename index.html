@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>starter</title>
   </head>
-  <body bg-hex-ecf0f1>
-    <div id="app">
-      <main h-full flex flex-col justify-center items-center></main>
-    </div>
+  <body bg-brand-white text-brand-black dark:bg-brand-black dark:text-brand-white>
+    <div id="app"></div>
+    <script>
+      (function () {
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        const setting = localStorage.getItem('color-schema') || 'auto'
+        if (setting === 'dark' || (prefersDark && setting !== 'light'))
+          document.documentElement.classList.toggle('dark', true)
+      })()
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
