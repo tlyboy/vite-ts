@@ -1,6 +1,7 @@
 [build.environment]
-NODE_VERSION = "16"
+  TZ = "Asia/Shanghai"
+  NODE_VERSION = "16"
 
 [build]
-publish = "dist"
-command = "pnpm run build"
+  publish = "dist"
+  command = "pnpm run build"
