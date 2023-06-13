@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -14,20 +14,20 @@ devDependencies:
     specifier: ^0.39.5
     version: 0.39.5(eslint@8.42.0)(typescript@5.1.3)
   '@iconify-json/carbon':
-    specifier: ^1.1.17
-    version: 1.1.17
+    specifier: ^1.1.18
+    version: 1.1.18
   '@iconify-json/file-icons':
     specifier: ^1.1.4
     version: 1.1.4
   '@iconify-json/simple-icons':
-    specifier: ^1.1.55
-    version: 1.1.55
+    specifier: ^1.1.56
+    version: 1.1.56
   '@tsconfig/node18':
     specifier: ^2.0.1
     version: 2.0.1
   '@types/node':
-    specifier: ^18.16.16
-    version: 18.16.16
+    specifier: ^18.16.18
+    version: 18.16.18
   '@unocss/eslint-config':
     specifier: ^0.53.1
     version: 0.53.1(eslint@8.42.0)(typescript@5.1.3)
@@ -45,7 +45,7 @@ devDependencies:
     version: 0.53.1(postcss@8.4.23)(vite@4.3.9)
   vite:
     specifier: ^4.3.9
-    version: 4.3.9(@types/node@18.16.16)
+    version: 4.3.9(@types/node@18.16.18)
 
 packages:
 
@@ -440,8 +440,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@iconify-json/carbon@1.1.17:
-    resolution: {integrity: sha512-FJCHUNP+iEGZILqu5YjByV+RBrWCsMo7YWXBJSpRMvaeVH3yjK3TI8UIc7lmPGI1NRmjThiaqjxMqe7CgQY55Q==}
+  /@iconify-json/carbon@1.1.18:
+    resolution: {integrity: sha512-RbKET6KS9xUMeYVq1FUH3UUA7AYNcnApkHt2AccCwTWTQQs/O58ji4Of6z6PhRajGlbfvrJzT/Uqh19OKECRvA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -452,8 +452,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/simple-icons@1.1.55:
-    resolution: {integrity: sha512-bQG9NtG3EnJbNCuwBrTLjoyWX61djNvHCJ7cG+96qzcchFxAP2BVy9qug5YrTsJoOIaOsXqFrYFjITHyI8e4Og==}
+  /@iconify-json/simple-icons@1.1.56:
+    resolution: {integrity: sha512-fsgArC3HmjQhAMXkjvIz0CrYsmjW3dSxAqUGAjsdQcikL03J4mqAgD8FpTEmMh22JrOB9GWVLINC07OTAeqskg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -582,8 +582,8 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node@18.16.16:
-    resolution: {integrity: sha512-NpaM49IGQQAUlBhHMF82QH80J08os4ZmyF9MkpCzWAGuOHqE4gTEbhzd7L3l5LmWuZ6E0OiC1FweQ4tsiW35+g==}
+  /@types/node@18.16.18:
+    resolution: {integrity: sha512-/aNaQZD0+iSBAGnvvN2Cx92HqE5sZCPZtx2TsK+4nvV23fFe09jVDvpArXr2j9DnYlzuU9WuoykDDc6wqvpNcw==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -999,7 +999,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.2.12
       magic-string: 0.30.0
-      vite: 4.3.9(@types/node@18.16.16)
+      vite: 4.3.9(@types/node@18.16.18)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -3358,7 +3358,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite@4.3.9(@types/node@18.16.16):
+  /vite@4.3.9(@types/node@18.16.18):
     resolution: {integrity: sha512-qsTNZjO9NoJNW7KnOrgYwczm0WctJ8m/yqYAMAK9Lxt4SoySUfS5S8ia9K7JHpa3KEeMfyF8LoJ3c5NeBJy6pg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3383,7 +3383,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.16
+      '@types/node': 18.16.18
       esbuild: 0.17.19
       postcss: 8.4.23
       rollup: 3.23.0

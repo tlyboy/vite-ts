@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@8.6.1",
+  "packageManager": "pnpm@8.6.2",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -16,11 +16,11 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.39.5",
-    "@iconify-json/carbon": "^1.1.17",
+    "@iconify-json/carbon": "^1.1.18",
     "@iconify-json/file-icons": "^1.1.4",
-    "@iconify-json/simple-icons": "^1.1.55",
+    "@iconify-json/simple-icons": "^1.1.56",
     "@tsconfig/node18": "^2.0.1",
-    "@types/node": "^18.16.16",
+    "@types/node": "^18.16.18",
     "@unocss/eslint-config": "^0.53.1",
     "@vue/tsconfig": "^0.4.0",
     "eslint": "^8.42.0",
