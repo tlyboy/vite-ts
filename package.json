@@ -19,7 +19,7 @@
     "@iconify-json/carbon": "^1.1.18",
     "@iconify-json/file-icons": "^1.1.4",
     "@iconify-json/simple-icons": "^1.1.57",
-    "@tsconfig/node18": "^2.0.1",
+    "@tsconfig/node18": "^18.2.0",
     "@types/node": "^18.16.18",
     "@unocss/eslint-config": "^0.53.1",
     "@vue/tsconfig": "^0.4.0",
